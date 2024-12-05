@@ -40,6 +40,7 @@
 
 
 <p></br></p>
+
 [Release 1.1.0 - 10/11/24](https://git.uwaterloo.ca/mw2auyeu/team102-4/-/wikis/Version-1-0-0-Release) 
 
 [Release 1.2.0 - 11/01/24](https://git.uwaterloo.ca/mw2auyeu/team102-4/-/wikis/Version-1.2.0-Release-Notes)  
