@@ -16,13 +16,14 @@
 
 ## Team
 
+    BK Kang - hb3kang@uwaterloo.ca
+    
     Matthew Au-Yeung - mw2auyeu@uwaterloo.ca
 
     Vanessa Wong - vm2wong@uwaterloo.ca
 
     Mike Gao - m5gao@uwaterloo.ca
 
-    BK Kang - hb3kang@uwaterloo.ca
 
 
 <h2>Releases</h2>
