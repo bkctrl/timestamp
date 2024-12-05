@@ -6,7 +6,6 @@
 <p align="center">On time in no time.<br /><br />
 </p>
 
-[Team Contract](https://git.uwaterloo.ca/mw2auyeu/team102-4/-/wikis/Team-Contract)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [Project Proposal](https://git.uwaterloo.ca/mw2auyeu/team102-4/-/wikis/Project-Proposal)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [Design Proposal](https://git.uwaterloo.ca/mw2auyeu/team102-4/-/wikis/design-proposal)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [User Documentation](https://git.uwaterloo.ca/mw2auyeu/team102-4/-/wikis/User-Documentation)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -15,7 +14,7 @@
 </div>
 
 
-## Team 102-4
+## Team
 
     Matthew Au-Yeung - mw2auyeu@uwaterloo.ca
 
