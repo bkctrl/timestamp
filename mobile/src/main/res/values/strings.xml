@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">mobile</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="web_client_id">536982464003-t8sflk6gatc53sfh131q1t1mp7fjhjsk.apps.googleusercontent.com</string>
+    <string name="backend_url">https://timestampdev.mattheway.com</string>
+<!--    <string name="backend_url">http://10.0.2.2:8080</string>-->
+</resources>

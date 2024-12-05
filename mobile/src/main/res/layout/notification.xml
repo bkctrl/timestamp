@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/notification_title"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/notification_event_time"
+        android:layout_marginTop="2dp"
+        android:textSize="14sp"
+        android:textColor="@color/subtle_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Car Time -->
+    <TextView
+        android:id="@+id/notification_car_time"
+        android:layout_marginTop="8dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Bike Time -->
+    <TextView
+        android:id="@+id/notification_bike_time"
+        android:layout_marginTop="4dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Walk Time -->
+    <TextView
+        android:id="@+id/notification_walk_time"
+        android:layout_marginTop="4dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

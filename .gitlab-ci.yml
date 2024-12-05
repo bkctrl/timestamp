@@ -1,0 +1,50 @@
+stages:
+#  - test
+  - build
+
+variables:
+  IMAGE_NAME: git.uwaterloo.ca:5050/mw2auyeu/team102-4/backend
+  IMAGE_TAG: $IMAGE_NAME:latest
+
+#run_android_tests:
+#  stage: test
+#  image: cirrusci/android-sdk:latest
+#  before_script:
+#    - yes | sdkmanager --licenses
+#    - sdkmanager "platforms;android-33" "build-tools;33.0.0" "system-images;android-33;google_apis;x86"
+#    - avdmanager create avd -n test -k "system-images;android-33;google_apis;x86" -d pixel
+#  script:
+#    - emulator -avd test -no-window -no-audio &
+#    - adb wait-for-device
+#    - ./gradlew connectedAndroidTest
+#  artifacts:
+#    when: always
+#    paths:
+#      - app/build/reports/androidTests/connected/
+#    expire_in: 1 week
+
+build_backend_docker_image:
+  stage: build
+  image: docker:cli
+  services:
+    - docker:dind
+  variables:
+    DOCKER_BUILDKIT: 1
+    DOCKER_CLI_EXPERIMENTAL: enabled
+  before_script:
+    - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+#    - docker buildx create --use
+    # Create the firebase admin key file
+    - echo "$FIREBASE_ADMIN_KEY_BASE64" | base64 -d > backend/src/main/resources/firebase-admin-key.json
+  script:
+#    - docker buildx build --platform linux/amd64,linux/arm64 -t $IMAGE_TAG --push .
+    - docker build -t $IMAGE_TAG .
+    - docker push $IMAGE_TAG
+  # Only run this job when changes are made to the backend directory
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+      exists:
+        - Dockerfile
+        - .dockerignore
+      changes:
+        - backend/**/*
