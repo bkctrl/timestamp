@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.timestamp.mobile.test">
+
+    <application>
+        <!-- No need to declare EmptyTestActivity here -->
+    </application>
+</manifest>

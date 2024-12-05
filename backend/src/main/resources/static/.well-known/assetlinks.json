@@ -1,0 +1,13 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "org.timestamp.mobile",
+    "sha256_cert_fingerprints": [
+      "8E:8C:65:72:FF:24:C1:75:87:DC:C2:99:A4:5C:4F:0E:BC:6A:EF:F8:81:8E:1A:10:88:2D:1B:AA:6B:90:1C:5E",
+      "77:4C:0C:80:EB:08:CC:CA:4D:C4:A9:44:3A:0B:94:BD:9C:CA:18:2D:87:18:62:C1:88:6E:71:E1:15:3C:FE:1B",
+      "45:CF:71:75:DB:69:21:C5:3C:A3:9B:C3:DF:47:E5:8D:A4:21:DC:D9:17:85:7C:60:9C:E3:11:29:28:CE:8C:7C",
+      "0F:D7:AF:59:30:4A:CC:C3:3C:D6:6F:21:49:3B:5A:9C:E9:91:99:A6:14:97:5C:EA:FF:E5:50:2E:65:31:DD:1C"
+    ]
+  }
+}]
