@@ -50,15 +50,15 @@ There’s nothing worse than being late. It leaves a bad first impression, it ca
 
 ## Screenshots
 <p float="left">
-  <img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_1.png" width="33%" />
-  <img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_2.png" width="33%" />
-  <img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_3.png" width="33%" />
+  <img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_1.png" width="30%" />
+  <img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_2.png" width="30%" />
+  <img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_3.png" width="30%" />
 </p>
 <p float="left">
-  <img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_4.png" width="33%" />
-  <img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_5.png" width="33%" />
-  <img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_6.png" width="33%" />
+  <img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_4.png" width="30%" />
+  <img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_5.png" width="30%" />
+  <img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_6.png" width="30%" />
 </p>
 <p float="left">
-  <img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_7.png" width="33%" />
+  <img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_7.png" width="30%" />
 </p>
