@@ -49,11 +49,16 @@
 There’s nothing worse than being late. It leaves a bad first impression, it causes confusion, and it frustrates others. Yet, it is something we all struggle with. When life gets busy, it helps to have a reminder to get you where you need to be. There are multiple factors that might affect your tardiness to an event, like your method of transport, or how long it takes to complete certain tasks before leaving. With our app, Timestamp, scrambling to arrive on time will never be an issue again. Timestamp sends reminders to users to depart on time, as well as allotting time for any tasks that must be completed before leaving. For group events, Timestamp also features real-time updates on the status of all attendees, to allow members to track the pending arrivals of their party. Our aim is to save users from the embarrassment and inconvenience of being late, ensuring punctuality with ease.
 
 ## Screenshots
-
-<img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_1.png">
-<img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_2.png">
-<img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_3.png">
-<img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_4.png">
-<img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_5.png">
-<img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_6.png">
-<img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_7.png">
+<p float="left">
+  <img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_1.png" width="33%" />
+  <img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_2.png" width="33%" />
+  <img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_3.png" width="33%" />
+</p>
+<p float="left">
+  <img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_4.png" width="33%" />
+  <img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_5.png" width="33%" />
+  <img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_6.png" width="33%" />
+</p>
+<p float="left">
+  <img src="https://timestamp-cs346.s3.ca-central-1.amazonaws.com/timestamp_7.png" width="33%" />
+</p>
